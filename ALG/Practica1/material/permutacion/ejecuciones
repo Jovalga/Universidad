@@ -1,0 +1,11 @@
+#!/bin/csh
+@ inicio = 1
+@ fin = 11
+@ incremento = 1
+@ i = $inicio
+echo > tiempos.dat
+while ( $i <= $fin )
+echo Ejecución tam = $i
+echo `bin/pruebapermutacion $i` >> tiempos.dat
+@ i += $incremento
+end

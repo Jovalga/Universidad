@@ -1,0 +1,37 @@
+
+
+*******************************************************************************
+Sun Mar  5 15:15:42 2017
+
+
+FIT:    data read from "tiempos.dat"
+        format = z
+        x range restricted to [0.00000 : 11.0000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*gamma(x+1) + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.3301459809e+13   0.00e+00  8.16e+05    1.000000e+00   1.000000e+00
+  10 1.1159737161e-03  -1.94e-10  8.16e-05    2.675856e-06   6.544372e-03
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 0.00111597
+rel. change during last iteration : -1.94306e-15
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0118109
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000139497
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.67586e-06      +/- 3.457e-09    (0.1292%)
+b               = 0.00654437       +/- 0.003987     (60.93%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.350  1.000 
